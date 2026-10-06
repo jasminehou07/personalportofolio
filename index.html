@@ -37,9 +37,9 @@
       <div class="signal-card reveal" aria-label="Project signal dashboard">
         <div class="signal-head"><span>BUILD SIGNAL / 2026</span><span class="live-pill">LIVE</span></div>
         <div class="metric-grid">
-          <div><strong data-count="4">0</strong><span>public builds</span></div>
-          <div><strong>02</strong><span>data products</span></div>
-          <div><strong>PY</strong><span>primary language</span></div>
+          <div><strong data-count="5">0</strong><span>featured projects</span></div>
+          <div><strong>02</strong><span>analyst roles</span></div>
+          <div><strong>R + PY</strong><span>modeling toolkit</span></div>
         </div>
         <div class="chart" aria-hidden="true">
           <svg viewBox="0 0 540 210" role="img" aria-label="Decorative rising project activity graph">
@@ -68,39 +68,33 @@
 
       <div class="project-grid">
         <article class="project project-featured reveal" data-tags="data web">
-          <div class="project-visual tenki-visual" aria-hidden="true">
-            <div class="mini-window">
-              <div class="mini-toolbar"><span></span><span></span><span></span><b>TENKI / SALES INDEX</b></div>
-              <div class="mini-dashboard">
-                <div class="mini-side"><i></i><i></i><i></i><i></i></div>
-                <div class="mini-main"><div class="mini-kpis"><b>8.4k</b><b>+18%</b><b>142</b></div><div class="bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
-              </div>
-            </div>
+          <div class="project-visual tenki-visual">
+            <img src="assets/tenki-dashboard.png" alt="Archived visual preview of the TENKI sales planning dashboard, showing event lift, calendar, trend, and category views">
+            <span class="archive-label">ARCHIVED INTERFACE PREVIEW</span>
           </div>
           <div class="project-copy">
-            <div class="project-meta"><span>01</span><span>Python · Dashboard · Search</span></div>
-            <h3>TENKI Sales Search</h3>
-            <p>A focused sales-search dashboard that turns dense commerce records into a fast, explorable view of product and store performance.</p>
-            <a class="text-link" href="https://jasminehou07.github.io/tenki-sales-search/" target="_blank" rel="noreferrer">Open live dashboard <span aria-hidden="true">↗</span></a>
+            <div class="project-meta"><span>01</span><span>Python · Forecasting · Data product</span></div>
+            <h3>TENKI Sales Intelligence</h3>
+            <p>Built predictive models to estimate historical sales for 4,000+ Rakuten shops across 300 product genres from top-80 ranking data. Forecasting outputs were used in client-facing sales planning meetings; the companion dashboard translated model results into event, calendar, trend, and category views.</p>
+            <span class="project-note">Private client data · visual preview only</span>
           </div>
         </article>
 
         <article class="project reveal" data-tags="data">
           <div class="project-visual forecast-visual" aria-hidden="true"><div class="orbit o1"></div><div class="orbit o2"></div><div class="forecast-label"><b>+12.8%</b><span>projected lift</span></div></div>
           <div class="project-copy">
-            <div class="project-meta"><span>02</span><span>Python · Forecasting</span></div>
-            <h3>TENKI Sales Model</h3>
-            <p>A sales prediction system using calendar, event, ranking, and lag features to convert historical Rakuten data into planning signals.</p>
-            <a class="text-link" href="https://github.com/jasminehou07/tenki-past-sales-model" target="_blank" rel="noreferrer">View repository <span aria-hidden="true">↗</span></a>
+            <div class="project-meta"><span>02</span><span>R · KNN · Clinical data</span></div>
+            <h3>Brain Injury Prediction</h3>
+            <p>Trained a K-nearest neighbors classifier on 30,000+ clinical records to predict CT scan necessity, engineering seven symptom and demographic indicators into usable model features.</p>
           </div>
         </article>
 
-        <article class="project reveal" data-tags="web">
+        <article class="project reveal" data-tags="data web">
           <div class="project-visual iss-visual" aria-hidden="true"><div class="earth"></div><div class="trajectory"></div><div class="satellite">ISS</div></div>
           <div class="project-copy">
-            <div class="project-meta"><span>03</span><span>Web · Open data</span></div>
-            <h3>ISS Project</h3>
-            <p>An exploration in making live, spatial information legible—part interface experiment, part curiosity about systems moving above us.</p>
+            <div class="project-meta"><span>03</span><span>R · Tableau · SDG 8</span></div>
+            <h3>Global GDP Growth</h3>
+            <p>Cleaned and visualized 2020–2024 GDP growth data across 241 countries and territories. Interactive Tableau views surfaced the 2020 contraction, 2021 rebound, and outlier economies for sustainable-development discussions.</p>
             <a class="text-link" href="https://github.com/jasminehou07/ISSproject" target="_blank" rel="noreferrer">View repository <span aria-hidden="true">↗</span></a>
           </div>
         </article>
@@ -108,34 +102,43 @@
         <article class="project reveal" data-tags="data web">
           <div class="project-visual ev-visual" aria-hidden="true"><div class="bolt">ϟ</div><div class="charge"><i></i></div><span>ENERGY / MOBILITY</span></div>
           <div class="project-copy">
-            <div class="project-meta"><span>04</span><span>Energy · Analysis</span></div>
-            <h3>EV Power</h3>
-            <p>A compact data exploration centered on electric-vehicle energy—an early build that reflects a continuing interest in measurable systems.</p>
+            <div class="project-meta"><span>04</span><span>R · Energy · Geospatial</span></div>
+            <h3>EV & Renewable Energy</h3>
+            <p>Joined and reshaped eight datasets covering energy prices, EV registrations, and energy usage across all 50 states and DC. A choropleth compared renewable-energy and EV-registration shares without overstating a nationwide relationship.</p>
             <a class="text-link" href="https://github.com/jasminehou07/ev-power-jasminehou07" target="_blank" rel="noreferrer">View repository <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+
+        <article class="project reveal" data-tags="data web">
+          <div class="project-visual airbnb-visual" aria-hidden="true"><div class="price-bars"><i></i><i></i><i></i><i></i><i></i></div><b>$301</b><span>MANHATTAN AVG / NIGHT</span></div>
+          <div class="project-copy">
+            <div class="project-meta"><span>05</span><span>Tableau · 41K listings</span></div>
+            <h3>NYC Airbnb Profitability</h3>
+            <p>Analyzed 41,000+ listings across five boroughs and 223 neighborhoods to show how location and property size drive pricing, including Manhattan’s 2.5× premium over the Bronx.</p>
           </div>
         </article>
       </div>
     </section>
 
     <section id="experience" class="section experience-section">
-      <div class="experience-intro reveal"><p class="eyebrow">02 / Experience</p><h2>A practice built by shipping.</h2><p>My recent work traces a clear arc: learn the system, model the signal, then design the surface people actually use.</p></div>
+      <div class="experience-intro reveal"><p class="eyebrow">02 / Experience</p><h2>Analysis with a next step.</h2><p>Across commerce, economic development, and student research, I focus on turning large datasets into evidence people can use.</p></div>
       <div class="timeline">
-        <div class="timeline-row reveal"><time>NOW</time><div><h3>Product-minded developer</h3><p>Building practical data interfaces with an emphasis on clarity, responsiveness, and useful decision-making.</p><div class="chips"><span>Product thinking</span><span>Data UX</span><span>Rapid prototyping</span></div></div></div>
-        <div class="timeline-row reveal"><time>2026</time><div><h3>TENKI commerce intelligence</h3><p>Developed a forecasting workflow and a companion sales-search dashboard, connecting the modeling layer to an accessible front end.</p><div class="chips"><span>Python</span><span>Forecasting</span><span>GitHub Pages</span></div></div></div>
-        <div class="timeline-row reveal"><time>2025—26</time><div><h3>Exploratory builds</h3><p>Used public and structured datasets to investigate mobility, energy, and live spatial systems through small, focused projects.</p><div class="chips"><span>Open data</span><span>Visualization</span><span>Web</span></div></div></div>
+        <div class="timeline-row reveal"><time>SUM ’26</time><div><h3>Data Analyst Intern · TENKI Japan</h3><p>Developed Python forecasting models for 4,000+ e-commerce shops and 300 product genres, delivering outputs used in client-facing sales-planning meetings.</p><div class="chips"><span>Python</span><span>Forecasting</span><span>E-commerce</span></div></div></div>
+        <div class="timeline-row reveal"><time>SPR ’26</time><div><h3>Data Analyst Intern · International Sibling Society</h3><p>Analyzed SDG 8 economic-growth data across 241 countries and territories and built interactive Tableau dashboards to support evidence-based discussion.</p><div class="chips"><span>R</span><span>Tableau</span><span>Global economics</span></div></div></div>
+        <div class="timeline-row reveal"><time>2026</time><div><h3>Women in Computing & Data Science</h3><p>Serve as Professional Development Chair after contributing to the Data Science Committee, where I studied smartphone use and sleep patterns and presented at the club symposium.</p><div class="chips"><span>Leadership</span><span>Research</span><span>Presentation</span></div></div></div>
       </div>
     </section>
 
     <section id="about" class="section about-section">
       <div class="about-number" aria-hidden="true">03</div>
-      <div class="about-copy reveal"><p class="eyebrow">About the builder</p><h2>Curious by default.<br>Precise by choice.</h2><p>I’m drawn to work where data has to become understandable before it can become useful. My approach combines investigation, lightweight modeling, and visual craft—moving quickly, testing ideas in the browser, and refining the parts that help people see what matters.</p><p>Right now, I’m especially interested in analytics products, human-centered AI, forecasting, and tools that turn operational complexity into calm interfaces.</p>
-        <a class="button" href="https://github.com/jasminehou07" target="_blank" rel="noreferrer">Follow the work on GitHub</a>
+      <div class="about-copy reveal"><p class="eyebrow">About the builder</p><h2>Statistics, economics,<br>and useful interfaces.</h2><p>I’m a Statistics and Economics student at UC Berkeley, class of 2029. I’m drawn to work where data has to become understandable before it can become useful—combining analysis, modeling, and visual craft to help people see what matters.</p><p>My toolkit includes Python, R, SQL, Tableau, Excel, and rapid AI-assisted prototyping. I’m especially interested in analytics products, human-centered AI, forecasting, and economic or operational questions with real-world stakes.</p>
+        <div class="about-actions"><a class="button" href="https://www.linkedin.com/in/jasmine-hou-77b178324" target="_blank" rel="noreferrer">Connect on LinkedIn</a><a class="text-link dark-link" href="https://github.com/jasminehou07" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a></div>
       </div>
       <aside class="principles reveal"><p class="eyebrow">Working principles</p><ol><li><span>01</span>Make the question visible.</li><li><span>02</span>Prototype the hard part first.</li><li><span>03</span>Let evidence sharpen the interface.</li><li><span>04</span>Ship a clear next step.</li></ol></aside>
     </section>
   </main>
 
-  <footer><div><span class="brand-mark">JH</span><p>Designed around signal, not noise.</p></div><p>© <span id="year"></span> Jasmine Hou</p><a href="#top">Back to top ↑</a></footer>
+  <footer><div><span class="brand-mark">JH</span><p>Designed around signal, not noise.</p></div><p>© <span id="year"></span> Jasmine Hou</p><a href="mailto:jasminehou._@berkeley.edu">jasminehou._@berkeley.edu</a><a href="#top">Back to top ↑</a></footer>
   <script src="script.js"></script>
 </body>
 </html>

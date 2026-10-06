@@ -4,3 +4,16 @@
 @media (max-width:900px){.nav-wrap nav{display:none}.hero{grid-template-columns:1fr;gap:60px;padding-top:65px}.signal-card{max-width:620px}.project-featured{display:block}.project-featured .project-copy{margin-top:16px}.experience-section{grid-template-columns:1fr}.experience-intro{position:static}.about-section{grid-template-columns:1fr}.about-number{display:none}.principles{border-left:0;padding-left:0}.section{padding-block:90px}}
 @media (max-width:640px){.nav-wrap{height:68px;padding-inline:18px}.nav-wrap .brand>span:last-child{display:none}.hero{padding:60px 18px}.hero h1{font-size:3.5rem}.hero-actions{align-items:flex-start;flex-direction:column}.metric-grid strong{font-size:1.25rem}.ticker{gap:10px;font-size:.56rem}.chart{height:170px}.section{padding:78px 18px}.section-heading{align-items:flex-start;flex-direction:column}.project-grid{grid-template-columns:1fr}.project-featured{grid-column:auto}.project-visual,.project-featured .project-visual{height:290px}.mini-window{left:5%;width:90%}.mini-kpis b{font-size:.75rem;padding:8px}.bars{gap:6px}.experience-section{gap:45px}.timeline-row{grid-template-columns:75px 1fr}.about-section{padding-inline:18px}footer{padding-inline:18px;flex-wrap:wrap;gap:20px}footer>p{display:none}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.marquee div,.orbit{animation:none}.reveal{opacity:1;transform:none;transition:none}}
+
+/* Resume-backed portfolio additions */
+.tenki-visual{background:#edf0f4}
+.tenki-visual img{width:100%;height:100%;display:block;object-fit:cover;object-position:top;filter:saturate(.86) contrast(1.02)}
+.archive-label{position:absolute;left:18px;bottom:18px;background:var(--ink);color:var(--aqua);padding:7px 10px;font:500 .66rem DM Mono,monospace;letter-spacing:.08em}
+.project-note{display:inline-flex;border:1px solid rgba(255,113,91,.5);color:var(--coral);padding:6px 9px;font:500 .68rem DM Mono,monospace;text-transform:uppercase;letter-spacing:.06em}
+.airbnb-visual{background:#14222c;padding:30px;display:flex;flex-direction:column;justify-content:flex-end}
+.price-bars{position:absolute;inset:34px;display:flex;align-items:flex-end;gap:13px}
+.price-bars i{flex:1;background:linear-gradient(var(--aqua),#204c54);height:35%}
+.price-bars i:nth-child(2){height:58%}.price-bars i:nth-child(3){height:88%;background:linear-gradient(var(--coral),#7b342e)}.price-bars i:nth-child(4){height:48%}.price-bars i:nth-child(5){height:68%}
+.airbnb-visual b{position:relative;font:500 2rem DM Mono;color:#fff}.airbnb-visual>span{position:relative;font:500 .65rem DM Mono;color:#9da9ae}
+.about-actions{display:flex;align-items:center;gap:24px;margin-top:24px}.dark-link{border-color:rgba(7,16,24,.4)}.about-copy .about-actions .button{margin-top:0}
+@media (max-width:640px){.about-actions{align-items:flex-start;flex-direction:column}.tenki-visual img{object-position:top left}footer>a[href^="mailto"]{width:100%}}
